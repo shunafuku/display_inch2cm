@@ -1,6 +1,4 @@
-const roundingUpDecimal = (tgtNum, digits) => {
-  return Math.round(tgtNum * (Math.pow(10, digits)))/ (Math.pow(10, digits));
-}
+import roundingUpDecimal from "./roundingUpDecimal";
 
 const inch2cm = (inch) => {
   return inch * 2.54;
